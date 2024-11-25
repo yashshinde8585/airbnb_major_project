@@ -1,0 +1,341 @@
+/* Navbar Styling */
+.navbar {
+    height: 5rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+    transition: color 0.3s;
+}
+
+.nav-link {
+    color: #222222 !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #fe424d !important;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    /* Dark background color */
+    color: white;
+    /* White text */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    padding: 1rem 0;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.f-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 6rem;
+}
+
+.f-info-socials {
+    font-size: 1.6rem;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.f-info-socials i {
+    margin: 0 0.5rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.f-info-socials i:hover {
+    color: #00aaff;
+    transform: scale(1.1);
+}
+
+.f-info-company {
+    font-weight: bold;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.f-info-links {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+}
+
+.f-info-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.f-info-links a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
+/* Card Styling */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+    transition: border-radius 0.3s;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-text p {
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Responsive Adjustments for Card */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1.5rem;
+    }
+
+    .card-img-top {
+        border-radius: 0.8rem;
+        max-height: 250px;
+    }
+
+    .navbar {
+        height: 4rem;
+    }
+
+    .fa-compass {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+    }
+
+    .card-img-top {
+        border-radius: 0.6rem;
+        max-height: 200px;
+    }
+
+    .navbar {
+        height: 3.5rem;
+    }
+
+    .f-info {
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .f-info-socials {
+        font-size: 1.4rem;
+    }
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* Form Styling */
+h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    /* text-align: center; */
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.form-control::placeholder {
+    color: #888;
+}
+
+.form-control:focus {
+    border-color: #fe424d;
+    outline: none;
+}
+
+/* Inline Fields for Form */
+.inline-fields {
+    display: flex;
+    gap: 1rem;
+}
+
+.inline-fields .form-control {
+    width: calc(50% - 0.5rem);
+}
+
+@media (max-width: 600px) {
+    .inline-fields {
+        flex-direction: column;
+    }
+}
+
+/* Submit Button Styling */
+button[type="submit"] {
+    padding: 0.5rem 1.5rem;
+    background-color: #fe424d;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #e63946;
+}
+
+.show-img {
+    height: 35vh;
+}
+
+.btns {
+    display: flex;
+    justify-content: left;
+    margin-top: auto;
+}
+
+.btns .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+/* Style for each review card */
+.review-card {
+    background-color: #333;
+    /* Dark background */
+    color: #fff;
+    /* White text */
+    border-radius: 8px;
+    border: 1px solid #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    /* Reduce overall padding */
+}
+
+/* Reduce padding inside the card body */
+.review-card .card-body {
+    padding: 10px;
+    /* Adjust padding to reduce height */
+}
+
+/* Style for the Delete button */
+.review-card .btn-danger {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #d9534f;
+    border: none;
+}
+
+.review-card .btn-danger:hover {
+    background-color: #c9302c;
+    color: #fff;
+}
+
+/* Additional styling for card elements */
+.review-card .card-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-card .card-text {
+    color: #ccc;
+    margin-bottom: 5px;
+    /* Reduce spacing below text */
+}
+
+/* Responsive spacing for review rows */
+@media (max-width: 767px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Map  */
+#map {
+    height: 350px;
+    width: 100vh;
+}
