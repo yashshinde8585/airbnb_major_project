@@ -55,6 +55,6 @@ Check out the live demo of the project here:
 ### Setup Instructions
 
 ```bash
-git clone https://github.com/your-username/airbnb-clone.git
+git clone https://github.com/yashshinde8585/airbnb_major_project.git
 cd airbnb-clone
 npm install
