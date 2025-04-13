@@ -9,7 +9,7 @@ A full-stack **Airbnb-inspired web application** that allows users to browse, li
 ## 🌐 Demo
 
 Check out the live demo of the project here:  
-[Airbnb Clone Demo](https://your-deployed-project-link.com)
+[Airbnb Clone Demo](https://airbnb-by-yash-shinde.onrender.com/listings)
 
 ---
 
