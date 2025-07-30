@@ -86,16 +86,6 @@ To get a local copy up and running, follow these simple steps.
     ```
     The application should now be running at `http://localhost:8080`.
 
-## 📸 Screenshots
-
-*(You can add screenshots of your application here to showcase its features and UI)*
-
-**Homepage**
-
-**Listing Details Page**
-
-**New Listing Form**
-
 ## 📂 File Structure
 
 The project has the following directory structure:
@@ -121,11 +111,6 @@ The project has the following directory structure:
 └── package.json
 ```
 
-## ⚖️ License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
------
 
 ## 🌐 Demo
 
